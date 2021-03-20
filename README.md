@@ -34,7 +34,7 @@ Click Add New Controller
 - Name: MegaPTZ
 - Type: FFmpeg
 - Protocol: MegaPTZ
-- Can Reset: <Optional if you want it>
+- Can Reset: &lt;Optional if you want it&gt;
 - On the other tabs, set the following:
 - Can Move, Can Move Diagonolly, Can Move Continous
 - Can Pan, Can Tilt, Can Zoom, Can Zoom Continuous
@@ -53,7 +53,7 @@ In the monitor's Control tab, set the following:
 
 - Controllable: Checked
 - Control Type: MegaPTZ
-- Control Address: <user>:<pass>@<ip-address>
+- Control Address: &lt;user&gt;:&lt;pass&gt;@&lt;ip-address&gt;
 - Auto Stop Timeout: 0.5
 
 # EXTRA INFO
@@ -62,10 +62,10 @@ If you're configuring a MegaPTZ, it is onvif compatible,
 but just to save you time:
 
 Source for high res: 
-   rtsp://admin:admin@<ip-address>:554/1/h264minor
+   rtsp://admin:admin@&lt;ip-address&gt;:554/1/h264minor
 
 Source for low res:
-   rtsp://admin:admin@<ip-address>:554/1/h264major
+   rtsp://admin:admin@&lt;ip-address&gt;:554/1/h264major
 
 # SEE ALSO
 
